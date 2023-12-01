@@ -1,0 +1,78 @@
+header{
+    background-color: rgba(20, 117, 146, 0.514); /*цвет фона*/
+    color:rgb(255, 255, 255); /*цвет текста*/
+    font-size: 30px; /*размер текста*/
+    height: 600px;
+    background-image: url(https://cdn.oneesports.vn/cdn-data/sites/4/2021/12/lmht-imagine-dragons-tim-tran-hat-enemy-1.jpg);
+    background-size: cover;
+    padding: 30px;
+
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color:rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: rgb(255, 255, 255) 2px 5px 5px;
+}
+
+main{
+    background-color: rgb(151, 240, 248);
+    color: white;
+    font-size: 20px;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(127, 29, 152),rgb(151, 240, 248))
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(127, 29, 152);
+    float: left;
+    text-align: justify;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(10, 5, 5);
+    float: right;
+    text-align: center;
+
+}
+
+.f_left{
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_right{
+    width: 70%;
+    float: right;
+}
+
+.f_right img{
+    width: 100px;
+}
+
+.f_right ul{
+    list-style: none;
+}
